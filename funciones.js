@@ -48,3 +48,11 @@ function RecorrerArray(){
     }
     document.getElementById("valoresArray").innerHTML = valor;
 }
+
+//Ejercicio 5: Ordenar los numeros de un array
+function OrdenarArray(){
+    const arrayNumeros = [7,4,1,8,5,2,9,6,3,20,30,10,18,27,64,35];
+    var arrayOrdenado = "";
+    arrayOrdenado = arrayNumeros.sort(function(a, b){return a-b});
+    document.getElementById("arrayOrdenado").innerHTML = arrayOrdenado;
+}
