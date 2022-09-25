@@ -38,4 +38,13 @@ function ValidarEdad(){
     document.getElementById("mensajeEdad").innerHTML = mensaje;
 }
 
-//Ejercicio 4: Validar si la edad ingresada es mayor de edad
+//Ejercicio 4: Imprimir todos los elementos de un array sin importar la cantidad de elementos de un array
+function RecorrerArray(){
+    const arrayNumeros = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,19,18,20];
+    var valor = "";
+    for (var i = 0; i < arrayNumeros.length; i++){
+        console.log(arrayNumeros[i])
+        valor += arrayNumeros[i] + "<br/>";        
+    }
+    document.getElementById("valoresArray").innerHTML = valor;
+}
